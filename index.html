@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pehuén Usuarios</title>
+  <link rel="icon" type="image/png" href="docs/assets/img/logoPowerJ.png">
+
+  
+  <link rel="stylesheet" href="estilos.css">
+
+  
+  <style>
+    .sidebar .app-name {
+    color: rgb(184, 180, 180) !important;
+}
+
+  
+    /* Asegurar que los enlaces sean visibles */
+    a {
+        color: #00bfff; /* Azul claro, puedes cambiarlo */
+    }
+  
+    
+  
+    
+  
+    /* Ajustar el color de la barra lateral */
+    .sidebar {
+        background-color: #222; /* Un poco más oscuro que el fondo */
+    }
+  
+    .sidebar ul li a {
+        color: white;
+    }
+  
+    .sidebar ul li.active > a {
+        color: #00bfff; /* Resalta el activo */
+    }
+  </style>
+  
+
+
+
+</head>
+<body>
+  <div id="app"></div>
+
+  <script>
+    window.$docsify = {
+      name: 'Pehuén Usuarios',
+      loadSidebar: true, // Activa la sidebar
+      subMaxLevel: 2, // Define niveles de submenús
+    };
+  </script>
+  
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
