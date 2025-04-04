@@ -21,14 +21,7 @@
 
 #### Flujo de Datos entre Usuario, Frontend, Backend y Base de Datos
 
-```plaintext
-+------------+          +------------+          +------------+          +------------+
-|  Usuario   |  ⇄ (1)   |  Frontend  |  ⇄ (2)  |  Backend   |  ⇄ (3)  |  MongoDB   |
-|  (Cliente) |          | (React.js) |          | (Node.js)  |          | (Base de   |
-|            |          |            |          | (Express)  |          |  Datos)    |
-+------------+          +------------+          +------------+          +------------+
-
-```
+<img src="./docs/assets/img/arquitectura.png" width="1800" >
 
 
 **Usuario** interactúa con la UI del **Frontend** (hace clics, llena formularios, envía datos).  
@@ -37,5 +30,6 @@
 **MongoDB** responde con los datos solicitados o almacena nuevos datos.  
 **Backend** envía la respuesta al **Frontend**.  
 **Frontend** actualiza la UI con los datos recibidos.  
+**Backend** envía peticiones al **WS Limay** para obtener datos de **usuarios** y **organismos**
 
 

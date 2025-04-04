@@ -14,6 +14,7 @@ Este sistema de gestión de usuarios y permisos está diseñado para administrar
 - **Backend:** Node.js (con Express.js).  
 - **Base de datos:** MongoDB.  
 - **Autenticación:** KeyCloak.  
+- **Consumo de WS:** GraphQL.
 - **Gestión de permisos:** Sistema basado en roles y permisos asignados a usuarios.  
 
 ### 1.3 Alcance del sistema  
