@@ -30,6 +30,7 @@
 **MongoDB** responde con los datos solicitados o almacena nuevos datos.  
 **Backend** envía la respuesta al **Frontend**.  
 **Frontend** actualiza la UI con los datos recibidos.  
-**Backend** envía peticiones al **WS Limay** para obtener datos de **usuarios** y **organismos**
+**Backend** envía peticiones a la BD **SGCONFIG**, tabla **CORREOS** para obtener datos de **usuarios** al momento de la carga.
+**Backend** envía peticiones al WS de Re.Na.Per para validar datos del usuario, mediante **Nro. Documento** y **Género**
 
 
