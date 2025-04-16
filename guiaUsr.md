@@ -63,7 +63,11 @@ Es muy común que se solicite dar de alta a un usuario **X** y que tenga los per
 >
 >Luego, con el botón **Buscar** se valida el Rol, obteniendo una vista previa de lo que se le otorgará al usuario.
 >
+>Una vez validado el rol, con el botón **Siguiente**, pasamos al segundo y ultimo paso: Completar, si corresponde, Nro de Tkt de Mesa de ayuda y Solicitante.
+>
 <img src="./docs/assets/img/img guia usr/roles 3.png" width="1800" >
+
+<img src="./docs/assets/img/img guia usr/roles 4.png" width="1800" >
 
 >**TENER EN CUENTA QUE SE CLONA TODA LA ESTRUCTURA DE PERMISOS. EN CASO DE TENER QUE HACER UN AJUSTE, SE DEBERA LUEGO EDITAR**
 >

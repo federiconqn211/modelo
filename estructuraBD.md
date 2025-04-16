@@ -232,3 +232,23 @@ Esta colección almacena información sobre los organismos, incluyendo el nombre
 | `updatedAt`       | Date          | Fecha de última actualización de la subárea.                     |
 | `updatedBy`       | String        | Usuario que realizó la última actualización de la subárea.       |
 
+
+## 📂 Colección: mesa_ayuda_roles
+
+### Descripción  
+Esta colección almacena la info de tickets de soporte generados por los usuarios para el pedido de generación de Roles.
+
+### Estructura de la colección
+
+| Campo        | Tipo de dato | Descripción                                                                 |
+|--------------|--------------|-----------------------------------------------------------------------------|
+| _id          | ObjectId     | Identificador único del ticket de soporte.                                 |
+| username     | String       | Nombre de usuario al que se le otorga el Rol                                      |
+| areaLaboral  | String       | Código de organismo.                   |
+| sistema      | String       | Nombre del sistema para el cual se genera el Rol.                                  |
+| nroTkt       | Integer      | Número de ticket referenciado.                                 |
+| solicitante  | String       | Usuario que solicitó el soporte (puede ser diferente del creador).         |
+| createdBy    | String       | Usuario que creó el registro(coincide con quien asigna el rol)                                                |
+| deletedAt    | Date/Null    | Fecha de eliminación (si el registro fue eliminado).                         |
+| createdAt    | Date         | Fecha de creación del registro.                                              |
+| updatedAt    | Date         | Fecha de última actualización del registro.                                  |
