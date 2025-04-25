@@ -120,6 +120,13 @@ el Rol de un sistema cuenta  con una estructura jerarquica muy flexible, en form
 >
 <img src="./docs/assets/img/img guia usr/organismos 1.png" width="1800" >
 
+>Por cada Organismo se puede ver las dependencias que lo componen, como asi tambén los usuarios que lo integran
+>
+
+<img src="./docs/assets/img/img guia usr/organismos 2.png" width="1800" >
+
+<img src="./docs/assets/img/img guia usr/organismos 3.png" width="1800" >
+
 ### Notificaciones 
 >Todas las notificaciones enviadas por los distintos sistemas, se pueden consultar.
 
