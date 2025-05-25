@@ -114,6 +114,15 @@ se verá en el apartado **Roles**
 
 el Rol de un sistema cuenta  con una estructura jerarquica muy flexible, en forma de árbol que se puede modificar mediante **drag & drop**, como asi tambien agregar nuevos nodos, raíz(Páginas navegables)  o bien nodos hoja(Elementos de la pantalla) con sus **check**, los cuales habilitan/ deshabilitan al perfil que tenga asignada la configuraión
 
+#### Areas Laborales
+> Cada sistema tiene asignadas áreas laborales, compuestas por un codigo de organismo, áreas principales y áreas propias.
+>
+<img src="./docs/assets/img/img guia usr/areasLaborales1.png" width="1800" >
+
+<img src="./docs/assets/img/img guia usr/areasLaborales2.png" width="1800" >
+
+>**Cuando se le otorga a un usuario permisos para un sistema, se hace para un determinado organismo y, dentro de éste, el area principal y propia.**
+
 ### Organismos 
 
 >La información de los organismos visualizados, proviene de una conexión al WS  del sistema **LIMAY**, por lo que solamente accedemos a ella en modo **Solo Lectura**

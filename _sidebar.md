@@ -14,5 +14,6 @@
   - [Sistemas](guiaUsr.md#sistemas)  <!-- Sin tilde -->
   - - [Administración](guiaUsr.md#sistemas)  <!-- Sin tilde -->
   - - [Roles](guiaUsr.md#roles)  <!-- Sin tilde -->
+  - - [Areas Laborales](guiaUsr.md#areas-laborales)
   - [Organismos](guiaUsr.md#organismos)  <!-- Sin tilde -->
   - [Notificaciones E-mail](guiaUsr.md#notificaciones)  <!-- Sin tilde -->
