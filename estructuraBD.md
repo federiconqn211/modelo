@@ -69,6 +69,20 @@ Esta colección almacena los sistemas disponibles en la plataforma.
 | `createdAt`  | Date        | Fecha de creación del sistema.                   |
 | `updatedAt`  | Date        | Fecha de última actualización del sistema.       |
 | `__v`        | Integer     | Versión del documento (campo interno de Mongoose). |
+| `areasLaborales` | Array          | Lista de configuraciones de áreas laborales por organismo. |
+
+```json
+{
+  "codigoOrganismo": "string",
+  "areasPrincipales": [
+    {
+      "areaPrincipal": "string",
+      "areasPropias": ["string"]
+    }
+  ]
+}
+```
+
 
 
 ## 📂 Colección: `usuarios_preferencias`
